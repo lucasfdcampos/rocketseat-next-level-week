@@ -1,11 +1,34 @@
 import React from 'react';
-import { View, Image, StyleSheet} from 'react-native';
+import { Feather as Icon } from '@expo/vector-icons';
+import { View, ImageBackground, Text, Image, StyleSheet } from 'react-native';
+import { RectButton } from 'react-native-gesture-handler';
 
 const Home = () => {
   return (
-    <View style={styles.container}>
-      <Image source={require('../../assets/logo.png')} />
-    </View>
+    <ImageBackground
+      source={require('../../assets/home-background.png')}
+      imageStyle={{ width: 274, height: 368 }}
+      style={styles.container}
+    >
+      <View style={styles.main}>
+        <Image source={require('../../assets/logo.png')} />
+        <Text style={styles.title}>Seu marketplace de coleta de resíduos.</Text>
+        <Text style={styles.description}>
+          Ajudamos pessoas a encontrarem pontos de coleta de forma eficiente.
+        </Text>
+      </View>
+
+      <View style={styles.footer}>
+        <RectButton style={styles.button} onPress={() => {}}>
+          <View style={styles.buttonIcon}>
+            <Text>
+              <Icon name="arrow-right" color="#FFF" size={24} />
+            </Text>
+          </View>
+          <Text style={styles.buttonText}>Entrar</Text>
+        </RectButton>
+      </View>
+    </ImageBackground>
   );
 };
 
@@ -13,6 +36,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 32,
+    backgroundColor: '#f0f0f5',
   },
 
   main: {
@@ -65,7 +89,7 @@ const styles = StyleSheet.create({
     width: 60,
     backgroundColor: 'rgba(0, 0, 0, 0.1)',
     justifyContent: 'center',
-    alignItems: 'center'
+    alignItems: 'center',
   },
 
   buttonText: {
@@ -75,7 +99,7 @@ const styles = StyleSheet.create({
     color: '#FFF',
     fontFamily: 'Roboto_500Medium',
     fontSize: 16,
-  }
+  },
 });
 
 export default Home;
