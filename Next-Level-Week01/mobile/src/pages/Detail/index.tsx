@@ -8,6 +8,7 @@ import {
   Image,
   TouchableOpacity,
   SafeAreaView,
+  Linking,
 } from 'react-native';
 import Constants from 'expo-constants';
 import { RectButton } from 'react-native-gesture-handler';
@@ -50,6 +51,12 @@ const Detail = () => {
     navigation.goBack();
   }
 
+  function handleWhatsapp() {
+    Linking.openURL(
+      `whatsapp://send?fone=${data.point.whatsapp}&text=Tenho interesse sobre coleta de resíduos`
+    );
+  }
+
   function handleComposeMail() {
     MailComposer.composeAsync({
       subject: 'Interesse na coleta de resíduos',
@@ -89,7 +96,7 @@ const Detail = () => {
       </View>
 
       <View style={styles.footer}>
-        <RectButton style={styles.button} onPress={() => {}}>
+        <RectButton style={styles.button} onPress={handleWhatsapp}>
           <FontAwesome name="whatsapp" size={20} color="#FFF" />
           <Text style={styles.buttonText}>Whatsapp</Text>
         </RectButton>
