@@ -11,6 +11,7 @@ import {
 } from 'react-native';
 import Constants from 'expo-constants';
 import { RectButton } from 'react-native-gesture-handler';
+import * as MailComposer from 'expo-mail-composer';
 import api from '../../services/api';
 
 interface Params {
@@ -47,6 +48,13 @@ const Detail = () => {
 
   function handleNavigateBack() {
     navigation.goBack();
+  }
+
+  function handleComposeMail() {
+    MailComposer.composeAsync({
+      subject: 'Interesse na coleta de resíduos',
+      recipients: [data.point.email],
+    });
   }
 
   if (!data.point) {
@@ -86,7 +94,7 @@ const Detail = () => {
           <Text style={styles.buttonText}>Whatsapp</Text>
         </RectButton>
 
-        <RectButton style={styles.button} onPress={() => {}}>
+        <RectButton style={styles.button} onPress={handleComposeMail}>
           <Icon name="mail" size={20} color="#FFF" />
           <Text style={styles.buttonText}>E-mail</Text>
         </RectButton>
