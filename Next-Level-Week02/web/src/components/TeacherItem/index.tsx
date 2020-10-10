@@ -4,33 +4,37 @@ import whatsappIcon from '../../assets/images/icons/whatsapp.svg';
 
 import './styles.css';
 
-function TeacherItem() {
+export interface Teacher {
+  id: number;
+  name: string;
+  avatar: string;
+  whatsapp: string;
+  bio: string;
+  subject: string;
+  cost: number;
+};
+
+interface TeacherItemProps {
+  teacher: Teacher;
+}
+
+const TeacherItem: React.FC<TeacherItemProps> = ({ teacher }) => {
   return (
     <article className="teacher-item">
       <header>
-        <img
-          src="https://avatars3.githubusercontent.com/u/56896330?s=460&u=ec2f0df0fa70e102fd7ad8c0e1db31a2490ad0dd&v=4"
-          alt="Lucas Campos"
-        />
+        <img src={teacher.avatar} alt={teacher.name} />
         <div>
-          <strong>Lucas Campos</strong>
-          <span>Química</span>
+          <strong>{teacher.name}</strong>
+          <span>{teacher.subject}</span>
         </div>
       </header>
 
-      <p>
-        Entusiasta das melhores tecnologias de química avançada.
-        <br />
-        <br />
-        Apaixonado por explor coisas em laboratório e por mudar a vida das
-        pessoas através de experiências. Mais de 200.000 pessoas já passaram por
-        uma das minhas explosões.
-      </p>
+      <p>{teacher.bio}</p>
 
       <footer>
         <p>
           Preço/hora
-          <strong>R$ 80,00</strong>
+          <strong>R$ {teacher.cost}</strong>
         </p>
         <button type="button">
           <img src={whatsappIcon} alt="Whatsapp" />
@@ -39,6 +43,6 @@ function TeacherItem() {
       </footer>
     </article>
   );
-}
+};
 
 export default TeacherItem;
