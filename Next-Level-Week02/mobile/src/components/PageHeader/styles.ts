@@ -13,6 +13,12 @@ const styles = StyleSheet.create({
     marginTop: 10,
   },
 
+  header: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+
   title: {
     fontFamily: 'Archivo_700Bold',
     color: '#FFF',
