@@ -44,11 +44,12 @@
   color: var(--color-primary);
   font: 700 1.6rem Archivo;
   cursor: pointer;
+  outline: none;
   transition: color 0.2s;
 }
 
 #page-teacher-form main fieldset legend button:hover {
-  color: var(--color-primary-dark);
+  color: var(--color-primary-darker);
 }
 
 #page-teacher-form main fieldset .input-block + .textarea-block,
