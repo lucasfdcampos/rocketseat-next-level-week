@@ -67,7 +67,7 @@ Import the `Insomnia.json` on Insomnia App or click on [Run in Insomnia](#insomn
 
 **Clone the project and access the folder**
 
-_Obs: this is a monorepo about all projects of Next Level Week_
+_Obs: this is a monorepo about all projects of Next Level Week. Go to the correct directory._
 
 ```bash
 $ git clone https://github.com/lucasfdcampos/rocketseat-next-level-week.git && cd Next-Level-Week01
@@ -131,5 +131,6 @@ $ yarn start
     <img src="https://img.shields.io/badge/-Lucas%20Campos-000000?style=for-the-badge&logo=GitHub&logoColor=#000000" />
 </a>
 &nbsp
-<a href="https://linkedin.com/in/lucasfdcampos"><img src="https://img.shields.io/badge/linkedin-0077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white">
+<a href="https://linkedin.com/in/lucasfdcampos">
+  <img src="https://img.shields.io/badge/linkedin-0077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white">
 </a>
