@@ -32,6 +32,8 @@
 
 ## 🚀 About the Next Level Week
 
+>Repo dedicated to NLW by Rocketseat
+
 **NLW** is a practical week with lots of code, insights, lives, challenges, networking and with a single objective: to take you to the **next level**.
 Through our method you will learn new tools, learn about new technologies and discover hacks that will boost your career.
 An online and completely free event that will help you take the next step in your evolution as a dev.
@@ -47,9 +49,9 @@ An online and completely free event that will help you take the next step in you
 
 ## 🚀 Projects
 
-- NLW #01 - ♻️ [Ecoleta](https://github.com/lucasfdcampos/rocketseat-next-level-week/tree/master/Next-Level-Week01)
-- NLW #02 - 🧑🏻‍🏫 [Proffy](https://github.com/lucasfdcampos/rocketseat-next-level-week/tree/master/Next-Level-Week02)
-- NLW #03 - 
+- **NLW #01** - ♻️ [Ecoleta](https://github.com/lucasfdcampos/rocketseat-next-level-week/tree/master/Next-Level-Week01)
+- **NLW #02** - 🧑🏻‍🏫 [Proffy](https://github.com/lucasfdcampos/rocketseat-next-level-week/tree/master/Next-Level-Week02)
+- **NLW #03** - Loading...
 
 ---
 <a href="https://github.com/lucasfdcampos">
