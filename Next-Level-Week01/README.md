@@ -32,9 +32,11 @@
 
 ## :recycle: About the project
 
-This project was developed on the Next Level Week #01 event by [Rocketseat](https://rocketseat.com.br/) &nbsp;🚀
+The app is a way to connect companies or entities that collect organic and inorganic waste to people who need dispose of their waste in an ecological way. The purpose of this app is to provide the possibility of garbage collection with the aim of helping the environment and the global ecosystem. Adding collection points and specific materials that can be collected.
 
-The purpose of this app is to provide the possibility of garbage collection with the aim of helping the environment and the global ecosystem. Adding collection points and specific materials that can be collected.
+This project was developed on the Next Level Week #01 event by [Rocketseat](https://rocketseat.com.br/). The NLW is an online experience with lots of pratical content,
+challenges, insights and hacks where the content is available for a week.
+
 
 ## 🚀 Technologies
 
