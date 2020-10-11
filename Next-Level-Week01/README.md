@@ -120,7 +120,7 @@ _Obs.: Before to continue; be sure to have the API running_
 # Install the dependencies
 $ yarn
 
-# Be sure the file 'clients/mobile/src/services/api.ts' have the IP (your PC) to your API
+# Be sure the file 'mobile/src/services/api.ts' have the IP (your PC) to your API
 
 # Start the expo service and scan the QR code with Expo Client
 $ yarn start
