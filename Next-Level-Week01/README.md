@@ -4,7 +4,7 @@
 </h1>
 
 <h3 align="center">
-  <b>Ecoleta - The easiest way to throw away your trash</b>
+  Ecoleta - The easiest way to throw away your trash
 </h3>
 
 <p align="center">
@@ -18,9 +18,7 @@
 <p align="center">
   <a href="#recycle-about-the-project">About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-how-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-license">License</a>
+  <a href="#-getting-started">Getting started
 </p>
 
 <p align="center">
@@ -88,13 +86,13 @@ $ yarn
 $ yarn
 
 # Use the script to run the migrations
-$ yarn server knex:migrate
+$ yarn knex:migrate
 
 # Use the script to run the seeds
-$ yarn server knex:seed
+$ yarn knex:seed
 
 # Run the api service to start the server API
-$ yarn server dev
+$ yarn dev
 
 ```
 
