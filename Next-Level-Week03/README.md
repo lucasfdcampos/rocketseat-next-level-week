@@ -69,6 +69,10 @@ Import the `Insomnia.json` on Insomnia App or click on [Run in Insomnia](#insomn
 
 _Obs: this is a monorepo about all projects of Next Level Week. Go to the correct directory._
 
+```bash
+$ git clone https://github.com/lucasfdcampos/rocketseat-next-level-week.git && cd Next-Level-Week03
+```
+
 **Install dependencies**
 
 ```bash
@@ -100,6 +104,9 @@ $ yarn
 
 # Start the client
 $ yarn start
+
+# Navigate to http://localhost:3000
+# The app will automatically reload if you change any of the source files.
 ```
 
 ### Mobile
