@@ -18,7 +18,7 @@
 <p align="center">
   <a href="#recycle-about-the-project">About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-getting-started">Getting started
+  <a href="#-getting-started">Getting started</a>
 </p>
 
 <p align="center">
