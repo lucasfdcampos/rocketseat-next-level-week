@@ -1,6 +1,6 @@
 <h1 align="center">
   <img src="web/src/images/logo.svg" alt="Logo" height="45"><br /><br />
-  <img src="web/src/images/landing.svg" alt="Logo Image" height="180">
+  <img src="web/src/images/landing.svg" alt="Logo Image" height="200">
 </h1>
 
 <h3 align="center">
