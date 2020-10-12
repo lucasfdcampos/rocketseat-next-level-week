@@ -28,8 +28,9 @@
   </a>
 </p>
 -->
-
-<img alt="Layout" src="web/src/images/happy-desktop-mockup.png">
+<p align="center">
+  <img alt="Layout" src="web/src/images/happy-desktop-mockup.png" style="max-width:80%;" />
+</p>
 
 ## 🧒🏼 About the project
 
