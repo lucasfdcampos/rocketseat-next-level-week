@@ -29,7 +29,7 @@
 </p>
 -->
 <p align="center">
-  <img alt="Layout" src="web/src/images/happy-desktop-mockup.png" style="max-width:80%;" />
+  <img alt="Layout" src="web/src/images/happy-desktop-mockup.png" style="max-width:70%;" />
 </p>
 
 ## 🧒🏼 About the project
