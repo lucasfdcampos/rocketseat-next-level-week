@@ -29,9 +29,7 @@
 </p>
 -->
 
-<!-- Mockup (to-do: search a mockup and upload)
-<img alt="Layout" src=".github/mockup.png">
--->
+<img alt="Layout" src="web/src/images/happy-desktop-mockup.png">
 
 ## 🧒🏼 About the project
 
