@@ -1,6 +1,6 @@
 <h1 align="center">
-  <img src="./web/src/images/logo.svg" alt="Logo" height="45"><br /><br />
-  <img src="./web/src/images/landing.svg" alt="Logo Image" height="200">
+  <img src="web/src/images/logo.svg" alt="Logo" height="45"><br /><br />
+  <img src="web/src/images/landing.svg" alt="Logo Image" height="200">
 </h1>
 
 <h3 align="center">
@@ -29,7 +29,7 @@
 </p>
 -->
 <p align="center">
-  <img alt="Layout" src="./web/src/images/happy-desktop-mockup.png" style="max-width:70%;" />
+  <img alt="Layout" src="web/src/images/happy-desktop-mockup.png" style="max-width:70%;" />
 </p>
 
 ## 🧒🏼 About the project
