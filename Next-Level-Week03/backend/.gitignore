@@ -4,6 +4,7 @@ uploads/*
 
 # connection
 *.sqlite
+database/*.sqlite
 
 # testing
 /coverage
