@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
-import { FiPlus, FiArrowRight } from 'react-icons/fi';
+import { Link, useHistory } from 'react-router-dom';
+import { FiPlus, FiArrowRight, FiArrowLeft } from 'react-icons/fi';
 import { Map, TileLayer, Marker, Popup } from 'react-leaflet';
 
 import mapIcon from '../utils/mapIcon';
@@ -18,6 +18,8 @@ interface Orphanage {
 }
 
 function OrphanagesMap() {
+  const { goBack } = useHistory();
+
   const [orphanages, setOrphanages] = useState<Orphanage[]>([]);
 
   useEffect(() => {
@@ -39,6 +41,9 @@ function OrphanagesMap() {
         <footer>
           <strong>Arapongas</strong>
           <span>Paraná</span>
+          <button type="button" onClick={goBack}>
+            <FiArrowLeft size={24} color="#FFF" />
+          </button>
         </footer>
       </aside>
 
