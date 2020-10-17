@@ -6,7 +6,6 @@ import { useNavigation } from '@react-navigation/native';
 import { RectButton } from 'react-native-gesture-handler';
 
 import mapMarker from '../images/map-marker.png';
-
 import api from '../services/api';
 
 interface Orphanage {
