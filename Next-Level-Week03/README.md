@@ -18,18 +18,17 @@
 <p align="center">
   <a href="#-about-the-project">About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-getting-started">Getting started</a>
 </p>
 
-<!-- Insomnia Button (to-do: configure link href)
 <p id="insomniaButton" align="center">
-  <a href="https://insomnia.rest/run/?label=Proffy&uri=https%3A%2F%2Fraw.githubusercontent.com%2Flucasfdcampos%2Frocketseat-next-level-week%2Fmaster%2FNext-Level-Week03%2FInsomnia.json" target="_blank">
-    <img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia">
+  <a href="https://insomnia.rest/run/?label=Happy&uri=https%3A%2F%2Fraw.githubusercontent.com%2Flucasfdcampos%2Frocketseat-next-level-week%2Fmaster%2FNext-Level-Week03%2FInsomnia.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia">
   </a>
 </p>
--->
+
 <p align="center">
-  <img alt="Layout" src="web/src/images/happy-desktop-mockup.png" style="max-width:70%;" />
+  <img alt="Layout" src="web/src/images/happy-desktop-mobile-mockup.png" style="max-width:70%;" />
 </p>
 
 ## 🧒🏼 About the project
@@ -54,6 +53,13 @@ The project was conceived thinking about the 12th of October, where, in Brazil, 
 - [React Navigation](https://reactnavigation.org/)
 - [Leaflet](https://leafletjs.com/)
 - [Mapbox](https://www.mapbox.com/)
+
+## 🔖 Layout
+
+In the links below you will find the layout of the web and mobile project. Remembering that you need to have an account at [Figma] (http://figma.com/) to access it.
+
+- [Layout Web](https://www.figma.com/file/mDEbnoojksG4w8sOxmudh3/Happy-Web)
+- [Layout Mobile](https://www.figma.com/file/X27FfVxAgy9f5IFa7ONlph/Happy-Mobile)
 
 ## 💻 Getting started
 
