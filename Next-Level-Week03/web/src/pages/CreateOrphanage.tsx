@@ -38,7 +38,7 @@ export default function CreateOrphanage() {
       return;
     }
 
-    const selectedImages = Array.from(event.target.files);
+    const selectedImages = images.concat(Array.from(event.target.files));
 
     setImages(selectedImages);
 
@@ -71,7 +71,7 @@ export default function CreateOrphanage() {
     await api.post('orphanages', data);
 
     alert('Cadastro realizado com sucesso!');
-    
+
     history.push('/app');
   }
 
