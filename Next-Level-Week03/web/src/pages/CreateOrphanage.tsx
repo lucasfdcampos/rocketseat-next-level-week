@@ -1,7 +1,7 @@
 import React, { useState, FormEvent, ChangeEvent } from 'react';
 import { Map, Marker, TileLayer } from 'react-leaflet';
 import { LeafletMouseEvent } from 'leaflet';
-import { FiPlus } from 'react-icons/fi';
+import { FiPlus, FiX } from 'react-icons/fi';
 import { useHistory } from 'react-router-dom';
 
 import Sidebar from '../components/Sidebar';
@@ -22,7 +22,9 @@ export default function CreateOrphanage() {
   const [opening_hours, setOpeningHours] = useState('');
   const [open_on_weekends, setOpenOnWeekends] = useState(true);
   const [images, setImages] = useState<File[]>([]);
-  const [previewImages, setPreviewImages] = useState<string[]>([]);
+  const [previewImages, setPreviewImages] = useState<
+    { name: string; url: string }[]
+  >([]);
 
   function handleMapClick(event: LeafletMouseEvent) {
     const { lat, lng } = event.latlng;
@@ -43,7 +45,10 @@ export default function CreateOrphanage() {
     setImages(selectedImages);
 
     const selectedImagesPreview = selectedImages.map((image) => {
-      return URL.createObjectURL(image);
+      return {
+        name: image.name,
+        url: URL.createObjectURL(image),
+      };
     });
 
     setPreviewImages(selectedImagesPreview);
@@ -129,9 +134,28 @@ export default function CreateOrphanage() {
 
               <div className="images-container">
                 {previewImages.map((image) => {
-                  return <img key={image} src={image} alt={name} />;
+                  return (
+                    <div key={image.name} className="image-preview">
+                      <img src={image.url} alt={name} />
+                      <FiX
+                        color="#FFF"
+                        className="delete-image"
+                        onClick={() => {
+                          setImages(
+                            images.filter((deletedImage) => {
+                              return image.name !== deletedImage.name;
+                            })
+                          );
+                          setPreviewImages(
+                            previewImages.filter((deletedImage) => {
+                              return image !== deletedImage;
+                            })
+                          );
+                        }}
+                      />
+                    </div>
+                  );
                 })}
-
                 <label htmlFor="image[]" className="new-image">
                   <FiPlus size={24} color="#15b6d6" />
                 </label>
