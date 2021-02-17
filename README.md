@@ -8,19 +8,19 @@
 
 <p align="center">
   <a href="https://rocketseat.com.br/">
-      <img src="https://img.shields.io/badge/NLW-3-blueviolet?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAALVBMVEVHcExxWsF0XMJzXMJxWcFsUsD///9jRrzY0u6Xh9Gsn9n39fyMecy0qd2bjNJWBT0WAAAABHRSTlMA2Do606wF2QAAAGlJREFUGJVdj1cWwCAIBLEsRU3uf9xobDH8+GZwUYi8i6ucJwrxKE+7D0G9Q4vlYqtmCSjndr4CgCgzlyFgfKfKCVO0LrPKjmiqMxGXkJwNnXskqWG+1oSM+BSwD8f29YLNjvx/OQrn+g99oQSoNmt3PgAAAABJRU5ErkJggg==">
+      <img src="https://img.shields.io/badge/NLW-4-%238257e6?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAALVBMVEVHcExxWsF0XMJzXMJxWcFsUsD///9jRrzY0u6Xh9Gsn9n39fyMecy0qd2bjNJWBT0WAAAABHRSTlMA2Do606wF2QAAAGlJREFUGJVdj1cWwCAIBLEsRU3uf9xobDH8+GZwUYi8i6ucJwrxKE+7D0G9Q4vlYqtmCSjndr4CgCgzlyFgfKfKCVO0LrPKjmiqMxGXkJwNnXskqWG+1oSM+BSwD8f29YLNjvx/OQrn+g99oQSoNmt3PgAAAABJRU5ErkJggg==">
       </img>
   </a>
   <a href="https://www.linkedin.com/in/lucasfdcampos/">
-    <img alt="Made by" src="https://img.shields.io/badge/made%20by-Lucas%20Campos-blueviolet">
+    <img alt="Made by" src="https://img.shields.io/badge/made%20by-Lucas%20Campos-%238257e6">
   </a>
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/lucasfdcampos/rocketseat-next-level-week?color=blueviolet">
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/lucasfdcampos/rocketseat-next-level-week?color=blueviolet">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/lucasfdcampos/rocketseat-next-level-week?color=%238257e6">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/lucasfdcampos/rocketseat-next-level-week?color=%238257e6">
   <a href="https://github.com/lucasfdcampos/ecoleta/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/lucasfdcampos/rocketseat-next-level-week?color=blueviolet">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/lucasfdcampos/rocketseat-next-level-week?color=%238257e6">
   </a>
   <a href="https://github.com/lucasfdcampos/ecoleta/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/lucasfdcampos/rocketseat-next-level-week?color=blueviolet">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/lucasfdcampos/rocketseat-next-level-week?color=%238257e6">
   </a>
 </p>
 
