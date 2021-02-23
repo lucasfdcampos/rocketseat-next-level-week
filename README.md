@@ -45,6 +45,7 @@ An online and completely free event that will help you take the next step in you
 - [TypeScript](https://www.typescriptlang.org/)
 - [ReactJS](https://reactjs.org/)
 - [React Native](https://reactnative.dev/)
+- [Next.js](https://nextjs.org/)
 
 
 ## 🚀 Projects
