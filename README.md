@@ -52,6 +52,7 @@ An online and completely free event that will help you take the next step in you
 - **NLW #01** - ♻️ [Ecoleta](https://github.com/lucasfdcampos/rocketseat-next-level-week/tree/master/Next-Level-Week01)
 - **NLW #02** - 🧑🏻‍🏫 [Proffy](https://github.com/lucasfdcampos/rocketseat-next-level-week/tree/master/Next-Level-Week02)
 - **NLW #03** - 🧒🏼 [Happy](https://github.com/lucasfdcampos/rocketseat-next-level-week/tree/master/Next-Level-Week03)
+- **NLW #04** - 🤸‍♂️ [Move.it](https://github.com/lucasfdcampos/rocketseat-next-level-week/tree/master/Next-Level-Week04)
 
 ---
 <a href="https://github.com/lucasfdcampos">
