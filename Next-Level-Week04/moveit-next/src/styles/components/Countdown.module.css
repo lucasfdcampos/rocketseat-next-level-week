@@ -1,7 +1,7 @@
 .countdownContainer {
   display: flex;
   align-items: center;
-  
+
   font-family: Rajdhani;
   font-weight: 600;
   color: var(--title);
@@ -64,4 +64,14 @@
 
 .countdownButton:hover {
   background: var(--blue-dark);
+}
+
+.countdownButtonActive {
+  background: var(--white);
+  color: var(--title);
+}
+
+.countdownButtonActive:hover {
+  background: var(--red);
+  color: var(--white);
 }
