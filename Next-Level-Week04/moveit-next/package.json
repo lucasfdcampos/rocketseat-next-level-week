@@ -13,13 +13,19 @@
     "next-themes": "^0.0.12",
     "react": "17.0.1",
     "react-dom": "17.0.1",
+<<<<<<< HEAD
     "react-switch": "^6.0.0"
+=======
+    "react-switch": "^6.0.0",
+    "styled-components": "^5.2.1"
+>>>>>>> ff31bb3d466849b0a1eeb0e8d0df3d869378fb2d
   },
   "devDependencies": {
     "@types/js-cookie": "^2.2.6",
     "@types/node": "^14.14.31",
     "@types/react": "^17.0.2",
     "@types/react-dom": "^17.0.1",
+    "@types/styled-components": "^5.1.7",
     "typescript": "^4.2.2"
   }
 }
