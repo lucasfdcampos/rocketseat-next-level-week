@@ -1,68 +1,44 @@
-import Head from 'next/head';
-import { GetServerSideProps } from 'next';
-
-import { CompletedChallenges } from '../components/CompletedChallenges';
-import { Countdown } from '../components/Countdown';
-import { ExperienceBar } from '../components/ExperienceBar';
-import { Profile } from '../components/Profile';
-import { ChallengeBox } from '../components/ChallengeBox';
-import { ChallengesProvider } from '../contexts/ChallengesContext';
-import { CountdownProvider } from '../contexts/CountdownContext';
-import SwitchReact from '../components/Switch';
+import React, { useState } from 'react';
+import { useRouter } from 'next/router';
+import { FiArrowRight, FiGithub } from 'react-icons/fi';
 
 import styles from '../styles/pages/Home.module.css';
-import React from 'react';
-import Switch from '../components/Switch';
 
-interface HomeProps {
-  level: number;
-  currentExperience: number;
-  challengesCompleted: number;
-}
+export default function Home() {
+  const { push } = useRouter();
 
-export default function Home(props: HomeProps) {
+  const [username, setUsername] = useState('');
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    push(`/${username}`);
+  }
+
   return (
-    <ChallengesProvider
-      level={props.level}
-      currentExperience={props.currentExperience}
-      challengesCompleted={props.challengesCompleted}
-    >
-      <div className={styles.container}>
-        <Head>          
-          <title>Início | move.it</title>
-        </Head>
+    <div className={styles.container}>
+      <section>
+        <div>
+          <img src="logo_white.svg" alt="" />
 
-        <div className={styles.switch}>
-          <Switch />
+          <h2>Bem vindo</h2>
+
+          <div className={styles.home}>
+            <FiGithub size={24} color="#fff" />
+            <p>Faça seu login com o Github para começar</p>
+          </div>
+
+          <div className={styles.home}>
+            <input
+              type="text"
+              placeholder="Digite seu Github"
+              onChange={(e) => setUsername(e.target.value)}
+            />
+            <button type="button" onClick={handleSubmit}>
+              <FiArrowRight size={24} color="#fff" />
+            </button>
+          </div>
         </div>
-
-        <ExperienceBar />
-
-        <CountdownProvider>
-          <section>
-            <div>
-              <Profile />
-              <CompletedChallenges />
-              <Countdown />
-            </div>
-            <div>
-              <ChallengeBox />
-            </div>
-          </section>
-        </CountdownProvider>
-      </div>
-    </ChallengesProvider>
+      </section>
+    </div>
   );
 }
-
-export const getServerSideProps: GetServerSideProps = async (ctx) => {
-  const { level, currentExperience, challengesCompleted } = ctx.req.cookies;
-
-  return {
-    props: {
-      level: Number(level),
-      currentExperience: Number(currentExperience),
-      challengesCompleted: Number(challengesCompleted),
-    },
-  };
-};
