@@ -8,8 +8,11 @@ import { Profile } from '../components/Profile';
 import { ChallengeBox } from '../components/ChallengeBox';
 import { ChallengesProvider } from '../contexts/ChallengesContext';
 import { CountdownProvider } from '../contexts/CountdownContext';
+import SwitchReact from '../components/Switch';
 
 import styles from '../styles/pages/Home.module.css';
+import React from 'react';
+import Switch from '../components/Switch';
 
 interface HomeProps {
   level: number;
@@ -25,9 +28,13 @@ export default function Home(props: HomeProps) {
       challengesCompleted={props.challengesCompleted}
     >
       <div className={styles.container}>
-        <Head>
+        <Head>          
           <title>Início | move.it</title>
         </Head>
+
+        <div className={styles.switch}>
+          <Switch />
+        </div>
 
         <ExperienceBar />
 

@@ -2,10 +2,17 @@
   height: 100vh;
   max-width: 1060px;
   margin: 0 auto;
-  padding: 2.5rem 2rem;
+  padding: 2rem 2rem;
 
   display: flex;
   flex-direction: column;
+}
+
+.container div.switch {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
 }
 
 .container section {
