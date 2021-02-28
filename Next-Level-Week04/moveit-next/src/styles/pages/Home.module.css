@@ -54,7 +54,7 @@
   padding: 1rem;
   height: 60px;
   width: 300px;
-  border-radius: 5px;
+  border-radius: 5px 0px 0px 5px;
   border: 0;
   background: linear-gradient(90deg, var(--inputBackground), transparent);
   color: var(--white);
@@ -71,11 +71,16 @@
   height: 60px;
   width: 60px;
   background-color: var(--green);
-  border-radius: 5px;
+  border-radius: 0px 5px 5px 0px;
   border: 0;
-  margin-left: 4px;
+  margin-left: 0.1rem;
 
   outline: none;
+  transition: background-color 0.2s;
+}
+
+.home button:hover {
+  background: var(--green-dark);
 }
 
 @media (max-width: 720px) {

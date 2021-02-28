@@ -16,6 +16,7 @@
   --timer: #2e384d;
   --red: #e83f5b;
   --green: #4cd62b;
+  --green-dark: #3db120;
   --blue: #5965e0;
   --blue-dark: #4953b8;
   --blue-twitter: #2aa9e0;
@@ -36,12 +37,13 @@
   --timer: #525252;
   --red: #e83f5b;
   --green: #4cd62b;
+  --green-dark: #2f9216;
   --blue: #5965e0;
   --blue-dark: #4953b8;
   --blue-twitter: #2aa9e0;
   --border-countdown: #0d1117;
   --backgroundIndex: #0d1117;
-  --inputBackground: #30343d;
+  --inputBackground: #161b22;
 }
 
 @media (max-width: 1080px) {
