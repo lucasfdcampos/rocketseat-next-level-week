@@ -38,8 +38,6 @@ export default function Dashboard(props: ProfileData) {
           <title>Dashboard | move.it</title>
         </Head>
 
-        <div className="link"></div>
-
         <div className={styles.switch}>
           <Link href="/">
             <a>Início</a>
