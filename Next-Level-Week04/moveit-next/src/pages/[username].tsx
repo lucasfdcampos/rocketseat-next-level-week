@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import { GetServerSideProps } from 'next';
 
 import { CompletedChallenges } from '../components/CompletedChallenges';
@@ -8,7 +9,6 @@ import { Profile } from '../components/Profile';
 import { ChallengeBox } from '../components/ChallengeBox';
 import { ChallengesProvider } from '../contexts/ChallengesContext';
 import { CountdownProvider } from '../contexts/CountdownContext';
-import SwitchReact from '../components/Switch';
 
 import styles from '../styles/pages/Dashboard.module.css';
 import React from 'react';
@@ -38,7 +38,12 @@ export default function Dashboard(props: ProfileData) {
           <title>Início | move.it</title>
         </Head>
 
+        <div className="link"></div>
+
         <div className={styles.switch}>
+          <Link href="/">
+            <a>Início</a>
+          </Link>
           <Switch />
         </div>
 

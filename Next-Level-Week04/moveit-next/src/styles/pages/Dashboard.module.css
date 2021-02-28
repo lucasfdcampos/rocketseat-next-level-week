@@ -10,9 +10,18 @@
 
 .container div.switch {
   display: flex;
-  align-items: flex-end;
-  flex-direction: column;
+  justify-content: space-between;
   margin-bottom: 0.5rem;
+}
+
+.container div.switch a {
+  font-size: 1rem;
+  color: var(--timer);
+  transition: color 0.2s;
+}
+
+.container div.switch a:hover {
+  color: var(--gray-line);
 }
 
 .container section {
