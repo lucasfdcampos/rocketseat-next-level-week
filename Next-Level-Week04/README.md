@@ -26,7 +26,7 @@
 
 ## 🤸 About the project
 
-The idea of ​​[move.it](https://www.figma.com/file/o8faqlTRiFqyB68bJePzUO/Move.it-1.0) is Pomodore to help people who spend a lot of time in front of the computer and forget to move around. Move, you need better health to always reach the next level.
+The idea of ​​[move.it](https://www.figma.com/file/o8faqlTRiFqyB68bJePzUO/Move.it-1.0) is a Pomodore to help people who spend a lot of time in front of the computer and forget to move around. Move, you need better health to always reach the next level.
 
 This project was developed on the Next Level Week #04 event by [Rocketseat](https://rocketseat.com.br/). The NLW is an online experience with lots of pratical content, challenges, insights and hacks where the content is available for a week.
 
