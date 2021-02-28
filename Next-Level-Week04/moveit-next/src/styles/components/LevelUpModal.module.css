@@ -1,5 +1,5 @@
 .overlay {
-  background: rgba(242, 243, 245, 0.8);
+  background: var(--overlay);
   position: fixed;
   top: 0;
   bottom: 0;
@@ -12,7 +12,7 @@
 }
 
 .container {
-  background: var(--white);
+  background: var(--secondary);
   width: 100%;
   max-width: 400px;
   padding: 2rem 3rem;
@@ -32,7 +32,7 @@
 
 .container strong {
   font-size: 2rem;
-  color: var(--title);
+  color: var(--titleIndex);
 }
 
 .container p {
@@ -48,5 +48,5 @@
   background: transparent;
   border: 0;
   font-size: 0;
-  outline-color: var(--white);
+  outline: none;
 }
