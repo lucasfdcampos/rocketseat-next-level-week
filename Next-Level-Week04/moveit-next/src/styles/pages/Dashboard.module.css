@@ -32,3 +32,20 @@
   gap: 6.25rem;
   align-content: center;
 }
+
+@media (max-width: 720px) {
+  .container {
+    margin: 0 auto;
+    padding: 2rem 2rem;
+  
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    align-content: center;
+  }
+}

@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import React, { useState } from 'react';
 import { useRouter } from 'next/router';
 import { FiArrowRight, FiGithub } from 'react-icons/fi';
@@ -16,6 +17,10 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
+      <Head>
+        <title>Início | move.it</title>
+      </Head>
+
       <section>
         <div>
           <img src="logo_white.svg" alt="" />

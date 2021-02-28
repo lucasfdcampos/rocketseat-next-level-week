@@ -35,7 +35,7 @@ export default function Dashboard(props: ProfileData) {
     >
       <div className={styles.container}>
         <Head>
-          <title>Início | move.it</title>
+          <title>Dashboard | move.it</title>
         </Head>
 
         <div className="link"></div>
