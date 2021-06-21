@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://rocketseat.com.br/">
-      <img src="https://img.shields.io/badge/NLW-5-%238257e6?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAALVBMVEVHcExxWsF0XMJzXMJxWcFsUsD///9jRrzY0u6Xh9Gsn9n39fyMecy0qd2bjNJWBT0WAAAABHRSTlMA2Do606wF2QAAAGlJREFUGJVdj1cWwCAIBLEsRU3uf9xobDH8+GZwUYi8i6ucJwrxKE+7D0G9Q4vlYqtmCSjndr4CgCgzlyFgfKfKCVO0LrPKjmiqMxGXkJwNnXskqWG+1oSM+BSwD8f29YLNjvx/OQrn+g99oQSoNmt3PgAAAABJRU5ErkJggg==">
+      <img src="https://img.shields.io/badge/NLW-6-%238257e6?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAALVBMVEVHcExxWsF0XMJzXMJxWcFsUsD///9jRrzY0u6Xh9Gsn9n39fyMecy0qd2bjNJWBT0WAAAABHRSTlMA2Do606wF2QAAAGlJREFUGJVdj1cWwCAIBLEsRU3uf9xobDH8+GZwUYi8i6ucJwrxKE+7D0G9Q4vlYqtmCSjndr4CgCgzlyFgfKfKCVO0LrPKjmiqMxGXkJwNnXskqWG+1oSM+BSwD8f29YLNjvx/OQrn+g99oQSoNmt3PgAAAABJRU5ErkJggg==">
       </img>
   </a>
   <a href="https://www.linkedin.com/in/lucasfdcampos/">
@@ -55,7 +55,7 @@ An online and completely free event that will help you take the next step in you
 - **NLW #03** - 🧒🏼 [Happy](https://github.com/lucasfdcampos/rocketseat-next-level-week/tree/master/Next-Level-Week03)
 - **NLW #04** - 🤸‍♂️ [Move.it](https://github.com/lucasfdcampos/rocketseat-next-level-week/tree/master/Next-Level-Week04)
 - **NLW #05** - 🎧 [Podcastr](https://github.com/lucasfdcampos/rocketseat-next-level-week/tree/master/Next-Level-Week05)
-
+- **NLW #06** - ❓ [Letmeask](https://github.com/lucasfdcampos/rocketseat-next-level-week/tree/master/Next-Level-Week06)
 ---
 <a href="https://github.com/lucasfdcampos">
     <img src="https://img.shields.io/badge/-Lucas%20Campos-000000?style=for-the-badge&logo=GitHub&logoColor=#000000" />
