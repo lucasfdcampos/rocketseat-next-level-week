@@ -1,12 +1,8 @@
-import { Button } from './components/Button';
+// import { Home } from "./pages/Home";
+import { NewRoom } from './pages/NewRoom';
 
 function App() {
-  return (
-    <div>
-      <Button text="Botão 1" />
-      <Button />
-    </div>
-  );
+  return <NewRoom />;
 }
 
 export default App;
