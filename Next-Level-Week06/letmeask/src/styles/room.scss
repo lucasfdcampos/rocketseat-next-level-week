@@ -52,6 +52,11 @@
         box-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
         resize: vertical;
         min-height: 130px;
+        outline: none;
+
+        ::placeholder {
+          color: #737380;
+        }
       }
 
       .form-footer {
