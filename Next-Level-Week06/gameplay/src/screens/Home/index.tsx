@@ -32,8 +32,8 @@ export function Home() {
     navigation.navigate('AppointmentCreate');
   }
 
-  function handleAppointmentDetails() {
-    navigation.navigate('AppointmentDetails');
+  function handleAppointmentDetails(guildSelected: AppointmentsProps) {
+    navigation.navigate('AppointmentDetails', { guildSelected });
   }
 
   async function loadAppointments() {
@@ -71,7 +71,10 @@ export function Home() {
         <Load />
       ) : (
         <>
-          <ListHeader title="Partidas agendadas" subtitle="Total 6" />
+          <ListHeader
+            title="Partidas agendadas"
+            subtitle={`Total ${appointments.length}`}
+          />
 
           <FlatList
             data={appointments}
@@ -81,7 +84,7 @@ export function Home() {
             ItemSeparatorComponent={() => <ListDivider />}
             contentContainerStyle={{ paddingBottom: 69 }}
             renderItem={({ item }) => (
-              <Appointment onPress={handleAppointmentDetails} data={item} />
+              <Appointment onPress={() => handleAppointmentDetails(item)} data={item} />
             )}
           />
         </>

@@ -2,7 +2,9 @@ import React from 'react';
 import { ImageBackground, View, Text, FlatList } from 'react-native';
 import { Fontisto } from '@expo/vector-icons';
 import { BorderlessButton } from 'react-native-gesture-handler';
+import { useRoute } from '@react-navigation/native';
 
+import { AppointmentsProps } from '../../components/Appointment';
 import { ListDivider } from '../../components/ListDivider';
 import { Background } from '../../components/Background';
 import { ListHeader } from '../../components/ListHeader';
@@ -15,7 +17,14 @@ import BannerImg from '../../assets/banner.png';
 
 import { styles } from './styles';
 
+type Params = {
+  guildSelected: AppointmentsProps;
+};
+
 export function AppointmentDetails() {
+  const route = useRoute();
+  const { guildSelected } = route.params as Params;
+
   const members = [
     {
       id: '1',
@@ -44,10 +53,8 @@ export function AppointmentDetails() {
 
       <ImageBackground source={BannerImg} style={styles.banner}>
         <View style={styles.bannerContent}>
-          <Text style={styles.title}>Lendários</Text>
-          <Text style={styles.subtitle}>
-            É hoje que vamos chegar ao challenger sem perder uma partida da md10
-          </Text>
+          <Text style={styles.title}>{guildSelected.guild.name}</Text>
+          <Text style={styles.subtitle}>{guildSelected.description}</Text>
         </View>
       </ImageBackground>
 
